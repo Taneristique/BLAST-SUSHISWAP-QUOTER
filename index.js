@@ -1,4 +1,3 @@
-require("dotenv").config();
 const {ethers, formatEther} = require('ethers');
 const public_rpc = 'https://rpc.envelop.is/blast';
 const provider = new ethers.JsonRpcProvider(public_rpc);
