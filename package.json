@@ -1,0 +1,29 @@
+{
+  "name": "blast_sushiswap_quoter",
+  "version": "1.0.0",
+  "description": "It simulates the results of exactInputSingle operation on sushiswap.Additionaly it supports only  Blast blockchain.It uses weth-usdb pair as default however this pair can be changed by modifiying index.js file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Taneristique/BLAST-SUSHISWAP-QUOTER.git"
+  },
+  "keywords": [
+    "['sushiswap'",
+    "'quoterV2'",
+    "'exactInputSingle'",
+    "'blast']"
+  ],
+  "author": "Taneristique",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Taneristique/BLAST-SUSHISWAP-QUOTER/issues"
+  },
+  "homepage": "https://github.com/Taneristique/BLAST-SUSHISWAP-QUOTER#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.2"
+  }
+}
